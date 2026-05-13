@@ -1,5 +1,6 @@
 class Solution {
 public:
+  //sk
     bool canJump(vector<int>& nums) {
         int maxIndex=0;
 
