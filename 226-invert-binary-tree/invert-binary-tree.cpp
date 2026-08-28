@@ -14,8 +14,8 @@ public:
  void neworder(TreeNode*root){
     if(root==NULL)return;
     swap(root->left, root->right);
-    neworder(root->right);
     neworder(root->left);
+    neworder(root->right);
  }
     TreeNode* invertTree(TreeNode* root) {
       neworder(root);
